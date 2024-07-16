@@ -25,7 +25,7 @@ st.title("News Researcher")
 st.sidebar.title("URLS to extract")
 urls=[]
 filepath="faiss_store_openai.pkl"
-llm=GooglePalm(temperature=0.9,google_api_key="AIzaSyBRc70rVG-cVdtPlz8_otN3MgE8396ZH_c")
+llm=GooglePalm(temperature=0.9,google_api_key="")
 for i  in range(3):
     urls.append(st.sidebar.text_input(f"URL{i+1}"))
 
