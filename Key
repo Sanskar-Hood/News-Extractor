@@ -1,0 +1,1 @@
+llm=GooglePalm(temperature=0.9,google_api_key="AIzaSyBRc70rVG-cVdtPlz8_otN3MgE8396ZH_c")
